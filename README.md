@@ -1,6 +1,6 @@
 # Twitter_Sentiment_Analysis
 
-<b>IMPORTANT: This code has ben written before changes in the Twitter. I am uploading this for display and to archive it. Due to fast changes on the platform, this code might not work as intended. </b>
+<b>IMPORTANT: This code has ben written before Twitter ownership changes. I am uploading this for reference and to archive it. Due to fast changes on the platform, this code might not work as initially intended. </b>
 
 This script performs sentiment analysis on tweets containing a specific hashtag. It searches for the hashtag, retrieves the tweets, cleans the tweet text, performs sentiment analysis using a pre-trained RoBERTa model, and outputs the results in a DataFrame.
 
