@@ -27,7 +27,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # Search tweets with a specific hashtag
-keywords = '#facialrecognition'
+keywords = '#python'
 limit = 300
 
 tweets = tweepy.Cursor(api.search_tweets, q=keywords, start_time="2022-10-01",
@@ -83,4 +83,4 @@ df['Sentiment'] = df.apply(lambda row: analyze_sentiment(row['Tweet']), axis=1)
 print(df)
 
 # (Optional) export DataFrame to csv
-#df.to_csv('tweets_#FR3.csv', encoding='utf-8')
+#df.to_csv('tweets.csv', encoding='utf-8')
